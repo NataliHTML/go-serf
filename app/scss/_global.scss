@@ -5,6 +5,8 @@ body {
 	background-color: #171919;
 	color: #fff;
 	text-transform: uppercase;
+	min-width: 320px; // для аннимации что бы не было скролла
+	overflow-x: hidden; // для аннимации что бы не было скролла
 }
 a {
 	display: inline-block;
@@ -52,13 +54,16 @@ a {
 	}
 }
 .title {
-	span {
+	div {
 		font-weight: 800;
 		font-size: 200px;
 		color: rgba(#fff, 0.02);
 		position: relative;
 		display: inline-block;
 		transform: translateX(-50px);
+	}
+	span {
+		display: inline-block;
 	}
 	h3 {
 		top: 0;
