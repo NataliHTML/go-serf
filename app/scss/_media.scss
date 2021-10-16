@@ -160,6 +160,9 @@
 	.holder {
 		padding: 70px 0 50px;
 	}
+	.slider-dotshead {
+		display: none;
+	}
 }
 @media (max-width: 1102px) {
 	.slider-map {
@@ -317,11 +320,6 @@
 	}
 	.sleep .holder-slider__descr {
 		background-position: right 10px;
-	}
-}
-@media (max-width: 960px) {
-	.slider-dotshead {
-		display: none;
 	}
 }
 
